@@ -11,7 +11,12 @@
     "resolveJsonModule": true,
     "moduleResolution": "Node",
     "module": "ESNext",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@algorithm/*": ["algorithm/*"],
+      "@data-structure/*": ["data-structure/*"]
+    }
   },
   "include": ["algorithm", "data-structure"]
 }
